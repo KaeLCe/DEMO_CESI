@@ -10,7 +10,7 @@ Trois web services permettent d'intéragir avec le serveur :
 ## Installation
 1. Installer Python 3.X
 2. Installer MariaDB (dernière version)
-3. `git clone http://url.com` (l'utilitaire git va télécharger le code et le placer là où vous lancez la commande. Sous Windows utilisez l'invite de commande Git Bash)
+3. `git clone https://github.com/KaeLCe/DEMO_CESI.git` (l'utilitaire git va télécharger le code et le placer là où vous lancez la commande. Sous Windows utilisez l'invite de commande Git Bash)
 4. Avec un client SQL (HeidiSQL par exemple), importez la BDD avec le fichier script.sql (le script va créer la base de donnée et l'utilisateur de BDD qui sera utilisé par le serveur Python, celui que l'on retrouve dans le fichier config.json. Celui-ci dispose de droit restreint.)
 5. Dans votre invite de commande, lancez les commandes suivantes :
     - `pip install flask`
