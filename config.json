@@ -1,0 +1,13 @@
+{
+    "mariadb": {
+        "user": "demo_cesi_user_bdd",
+        "password": "demo_password",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "database": "demo_cesi"
+    },
+    "jwt": {
+        "secret": "le_super_secret",
+        "algorithm": "HS256"
+    }
+}
